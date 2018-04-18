@@ -18,5 +18,5 @@ luFactor has two checks and associated messages.
 1. Checks if one inputs is given and throws error if not.
 2. Checks if A is a square matrix and throws error if not. 
 
-##Known Bugs
+## Known Bugs
 Currently luFactor only works for a 3x3 matrix. luFactor find the larger of two pivot elements, rather than the maximum of all the potential pivot elements. 

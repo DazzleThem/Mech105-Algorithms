@@ -5,7 +5,7 @@ luFactor is a Matlab program that determines the L-U factorization of a square m
 
 ## Inputs
 luFactor takes one input.
-1. A the square matrix whose lu factorization is to be found
+1. A is the square matrix whose lu factorization is to be found
 
 ## Outputs
 luFactor gives 3 outputs.
@@ -15,8 +15,8 @@ luFactor gives 3 outputs.
 
 ## Checks
 luFactor has two checks and associated messages.
-1. Checks if one inputs is given and throws error if not.
+1. Checks if one input is given and throws error if not.
 2. Checks if A is a square matrix and throws error if not. 
 
 ## Known Bugs
-Currently luFactor only works for a 3x3 matrix due to how the pivot element is found. luFactor find the larger of two pivot elements, rather than the maximum of all the potential pivot elements. 
+Currently luFactor only works for a 3x3 matrix due to how the pivot element is found. luFactor finds the larger of two pivot elements, rather than the maximum of all the potential pivot elements. 
